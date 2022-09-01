@@ -995,6 +995,9 @@ body{
         margin-left: 0;
     }
     .comments{
+        &::after,&::before{
+            content:'';
+        }
         .swiper-button-prev-all,.swiper-button-next-all{                    
         top: 28%;
         }       

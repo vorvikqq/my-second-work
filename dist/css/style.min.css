@@ -2172,6 +2172,9 @@ body {
   .phone-slider {
     margin-left: 0;
   }
+  .comments::after, .comments::before {
+    content: "";
+  }
   .comments .swiper-button-prev-all, .comments .swiper-button-next-all {
     top: 28%;
   }
