@@ -2688,6 +2688,10 @@ body {
 }
 
 @media (max-width: 26.6em) {
+  .text-slider {
+    margin-bottom: 60px;
+  }
+
   .phone-slider {
     margin-left: 0;
   }
@@ -2699,7 +2703,7 @@ body {
 
   .comments .swiper-button-prev-all,
   .comments .swiper-button-next-all {
-    top: 28%;
+    top: 32%;
   }
 
   .instruction__button {
@@ -2719,7 +2723,7 @@ body {
   }
 
   .instruction__list {
-    padding-right: 0;
+    padding-left: 10px;
   }
 
   .instruction__bullets {

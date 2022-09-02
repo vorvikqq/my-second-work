@@ -991,6 +991,9 @@ body{
     }
 }
 @media (max-width: 26.6em/*425*/) {
+    .text-slider{
+        margin-bottom: 60px;
+    }
     .phone-slider{
         margin-left: 0;
     }
@@ -999,7 +1002,7 @@ body{
             content:'';
         }
         .swiper-button-prev-all,.swiper-button-next-all{                    
-        top: 28%;
+        top: 32%;
         }       
     }
     .instruction__button {
@@ -1015,7 +1018,7 @@ body{
         width: 100%;
     }
     .instruction__list{
-        padding-right: 0;
+        padding-left: 10px;
     }
     .instruction__bullets{
         padding-right: 5px;
