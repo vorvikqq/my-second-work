@@ -990,7 +990,7 @@ body{
         width: 96%;
     }
 }
-@media (max-width: 26.6em/*425*/) {
+@media (max-width: 27em/*425*/) {
     .text-slider{
         margin-bottom: 60px;
     }
@@ -1007,6 +1007,9 @@ body{
     }
     .instruction__button {
         bottom: -10%;
+        width: 95%;
+        margin: 0 auto;
+        white-space: wrap;
     }
     .instruction{
         margin-bottom: 200px;
