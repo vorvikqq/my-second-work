@@ -1311,10 +1311,11 @@ body {
   color: #FCFCFC;
   padding: 25px 95px 25px 71px;
   position: relative;
+  cursor: pointer;
 }
 .button a {
+  color: #FCFCFC;
   text-decoration: none;
-  color: #fff;
 }
 .button::after {
   content: url("../img/svg/arrow.svg");

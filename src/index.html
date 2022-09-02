@@ -220,16 +220,16 @@
                 <div class="container">
                     <h2 class="application__title">Хотели бы оформить заказ или задать вопрос?</h2>
                     <h3 class="application__sub-title">Оставьте заявку, мы свяжемся с вами и проконсультируем по любым вопросам 🥰</h3>
-                    <form class="application__form">
-                        <div class="application__input-name"><input type="text"  placeholder="Your name"></div>
-                        <div class="application__input-number"><input type="text"  placeholder="Your phone number"></div>
+                    <form class="application__form" action="">
+                        <div class="application__input-name"><input type="text"  placeholder="Your name" maxlength="20" id="text"></div>
+                        <div class="application__input-number"><input type="text"  placeholder="Your phone number" id="phone"></div>
                         <div class="application__input-comment"><input type="text"  placeholder="Your comment"></div>
                         <div class="application__input-checkbox">
                             <input type="checkbox" name="checkbox" id="checkbox">
                             <label for="checkbox">Даю согласие на обработку персональных данных</label>
                         </div>
                         <div class="application__center">
-                            <a href="thank.html"></a><button type="submit" class="application__button button">Отправить</button></a>
+                            <button type="submit" class="application__button button"><a href="thank.html">Отправить</a></button>
                             <div class="application__apps">
                                 <a href="#!"><img src="@img/svg/whatsapp-ico.svg" alt=""></a>
                                 <a href="#!"><img src="@img/svg/telegram-ico.svg" alt=""></a>

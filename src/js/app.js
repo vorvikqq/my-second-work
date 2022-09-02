@@ -65,3 +65,13 @@ let textSlider = new Swiper('.text-slider', {
     },
     speed:500,
 })
+
+// form
+
+document.getElementById('phone').addEventListener('input', function() {
+    this.value = this.value.replace(/[^0-9\-()+]/g, '');
+});
+document.getElementById('text').addEventListener('input', function() {
+    this.value = this.value.replace(/[^а-яА-ЯA-Za-z ]/g, '');
+});
+  

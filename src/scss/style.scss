@@ -45,9 +45,10 @@ body{
     color: #FCFCFC;
     padding: 25px 95px 25px 71px;
     position: relative;
+    cursor: pointer;
     a{
+        color: #FCFCFC;
         text-decoration: none;
-        color: #fff;
     }
     &::after{
         content: url('../img/svg/arrow.svg');
