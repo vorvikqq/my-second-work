@@ -1312,6 +1312,10 @@ body {
   padding: 25px 95px 25px 71px;
   position: relative;
 }
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
 .button::after {
   content: url("../img/svg/arrow.svg");
   position: absolute;
@@ -2393,6 +2397,24 @@ body {
   .iherb__button {
     margin-top: 60px;
   }
+  .thank__bottom {
+    -webkit-transform: translate(-50%, 10%);
+            transform: translate(-50%, 10%);
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .comments .swiper-button-prev-all {
     left: 40%;
   }
@@ -2422,58 +2444,18 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-<<<<<<< HEAD
-=======
-
-@media (max-width: 26.6em) {
-  .text-slider {
-    margin-bottom: 60px;
-  }
-
-  .phone-slider {
-    margin-left: 0;
-  }
-
-  .comments::after,
-  .comments::before {
-    content: "";
-  }
-
-  .comments .swiper-button-prev-all,
-  .comments .swiper-button-next-all {
-    top: 32%;
-  }
-
-  .instruction__button {
-    bottom: -10%;
-  }
-
-  .instruction {
-    margin-bottom: 200px;
-  }
-
-  .instruction__list li {
-    margin-right: 10px;
-  }
-
-  .application__sub-title {
-    width: 100%;
-  }
-
-  .instruction__list {
-    padding-left: 10px;
-  }
-
-  .instruction__bullets {
-    padding-right: 5px;
-  }
-}
->>>>>>> e91224e930be5888a711fb201d3690c1866ad4d3
 @media (max-width: 28em) {
   .footer__body {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
         grid-template-areas: "calcul" "cards" "text";
+  }
+  .thank__button {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .thank__button::after {
+    content: "";
   }
   .footer__left {
     margin-bottom: 40px;
@@ -2507,7 +2489,6 @@ body {
     -ms-grid-column: 1;
   }
 }
-<<<<<<< HEAD
 @media (max-width: 27em) {
   .text-slider {
     margin-bottom: 60px;
@@ -2548,12 +2529,12 @@ body {
     top: 39%;
   }
 }
-=======
-
-@media (max-width: 20em) {
-  .comments .swiper-button-prev-all,
-  .comments .swiper-button-next-all {
-    top: 39%;
-  }
+/*-------------thank-----------*/
+.thank__button {
+  white-space: nowrap;
+  font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
 }
->>>>>>> e91224e930be5888a711fb201d3690c1866ad4d3
+
+.thank__tittle {
+  width: 100%;
+}

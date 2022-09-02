@@ -45,6 +45,10 @@ body{
     color: #FCFCFC;
     padding: 25px 95px 25px 71px;
     position: relative;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
     &::after{
         content: url('../img/svg/arrow.svg');
         position: absolute;
@@ -933,6 +937,14 @@ body{
     .iherb__button{
         margin-top: 60px;
     }
+    .thank__bottom{
+        transform: translate(-50%,10%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .comments{
         .swiper-button-prev-all{                    
         left: 40%;
@@ -969,6 +981,13 @@ body{
                     "cards"
                     "text"
         ;
+    }
+    .thank__button{
+        width: 90%;
+        margin: 0 auto;
+        &::after{
+            content: '';
+        }
     }
     .footer__left{
         margin-bottom: 40px;
@@ -1033,4 +1052,12 @@ body{
         top: 39%;
         }       
     }
+}
+/*-------------thank-----------*/
+.thank__button{
+    white-space: nowrap;
+    @include adaptiv-font(20,16);
+}
+.thank__tittle{
+    width: 100%;
 }
